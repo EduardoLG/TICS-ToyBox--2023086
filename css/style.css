@@ -109,3 +109,19 @@ body {
     position: absolute;
     border: 0;
 }
+
+.table-image {
+    width: 80px; 
+    height: 80px;
+    object-fit: contain;
+    border-radius: 5px;
+        }
+.cart-summary .card-body {
+    background-color: #f8f9fa;
+}
+
+.navbar-logo {
+    height: 35px;
+    width: auto; 
+    vertical-align: middle; 
+}
