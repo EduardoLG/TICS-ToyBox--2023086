@@ -34,8 +34,10 @@ Este es un proyecto web estático, lo que significa que no necesita un servidor 
 
     Y abre el proyecto en Visual Studio.
 
+    O simplemente ingresa a este link 
+
     ```
-    O simplemente ingresa a este link https://eduardolg.github.io/TICS-ToyBox--2023086/
+    https://eduardolg.github.io/TICS-ToyBox--2023086/
     ```
 2.  **Abre los archivos HTML:**
     Navega a la carpeta principal del proyecto y simplemente haz doble clic en `index.html` y haz clic en Live Server para poder abrir el sitio web en tu navegador
