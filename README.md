@@ -29,12 +29,14 @@ Este es un proyecto web estático, lo que significa que no necesita un servidor 
 
 1.  **Clona o descarga el repositorio:**
     ```bash
-    git clone y el link del repositorio compartido
+    git clone https://github.com/EduardoLG/TICS-ToyBox--2023086.git
     ```
-    O descarga el archivo ZIP y extráelo.
 
     Y abre el proyecto en Visual Studio.
 
+    ```
+    O simplemente ingresa a este link https://eduardolg.github.io/TICS-ToyBox--2023086/
+    ```
 2.  **Abre los archivos HTML:**
     Navega a la carpeta principal del proyecto y simplemente haz doble clic en `index.html` y haz clic en Live Server para poder abrir el sitio web en tu navegador
 
