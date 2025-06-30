@@ -6,7 +6,7 @@
     <title>Toy Box - Tu tienda de juguetes</title>
     <link rel="icon" href="images/LogoToyBoxD-removebg-preview.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
@@ -46,22 +46,82 @@
 
 <!-- -------------------------------------- Fin Header/Navbar ------------------------------------------------ -->
 
+<main>
+        <section id="seccion-contacto" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5 display-4">Contáctanos</h2>
+                <p class="text-center lead mb-5">
+                    ¿Tienes alguna pregunta, sugerencia o necesitas ayuda? No dudes en contactarnos. ¡Estamos aquí para ayudarte!
+                </p>
 
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <h3 class="mb-4">Envíanos un Mensaje</h3>
+                        <form action="#" method="POST">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre Completo</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Tu Mensaje</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg">Enviar Mensaje</button>
+                        </form>
+                    </div>
 
+                    <div class="col-lg-6 mb-4">
+                        <h3 class="mb-4">Nuestra Información</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="bi bi-geo-alt-fill me-2 text-primary"></i>
+                                Dirección: 123 Calle de los Juguetes, Ciudad Fantasía, País Feliz
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-telephone-fill me-2 text-primary"></i>
+                                Teléfono: +502 1234-5678
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-envelope-fill me-2 text-primary"></i>
+                                Email: info@toybox.com
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-clock-fill me-2 text-primary"></i>
+                                Horario: Lunes a Sábado: 9:00 AM - 6:00 PM
+                            </li>
+                        </ul>
 
+                        <h3 class="mb-3 mt-5">Dónde Encontrarnos</h3>
+                        <div class="map-container rounded shadow-sm">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.628929767676!2d-90.52355402509177!3d14.512686777321556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a19c5c9a0b1b%3A0x6e7e4e0d7c8c9b1c!2sGuatemala%20City!5e0!3m2!1sen!2sgt!4v1719460868123!5m2!1sen!2sgt" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                            </div>
 
+                        <h3 class="mb-3 mt-5">Síguenos en Redes Sociales</h3>
+                        <div class="d-flex justify-content-start">
+                            <a href="#" class="text-primary me-3 fs-3"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="text-primary me-3 fs-3"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="text-primary fs-3"><i class="bi bi-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-
-    <!-- ------------------------------- Inicio Footer/Pie de Pagina -------------------------------------------- -->
+<!-- ------------------------------- Inicio Footer/Pie de Pagina -------------------------------------------- -->
 
 <footer class="bg-dark text-white text-center py-4 mt-5">
     <div class="container">
         <p>&copy; 2025 Juguetería Toy Box. Todos los derechos reservados.</p>
-        <p>Síguenos en :
-            <a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="text-white mx-2"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
-        </p>
     </div>
 </footer>
 
