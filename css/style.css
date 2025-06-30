@@ -82,3 +82,15 @@ body {
     padding-left: 22px;
     padding-right: 22px;
 }
+
+.precio-original {
+    text-decoration: line-through;
+    color: #6c757d;
+    font-size: 0.9em;
+}
+
+.precio-oferta {
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 1.25em;
+}
